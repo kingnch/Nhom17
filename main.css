@@ -1,0 +1,226 @@
+:root{
+    --main-text:Arial,Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 90vh; 
+    width: 100vw; 
+    background-color: #FFFFFF;
+    position: relative;
+}
+.header{
+    background-color: #FFFFFF;
+}
+.search{
+    border-bottom: 3px solid #DDDDDD;
+}
+.login{
+    margin-top: 20px;
+    margin-left: 1200px;
+    margin-bottom: 25px;
+}
+.login1{
+    position: absolute;
+    margin-left: 280px;
+    top:1px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.custom-button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#a1{
+    width: 110px;
+    height: 110px;
+    margin-left: 120px;
+    position: absolute;
+}
+a{
+    color:#888888;
+    text-decoration: none;
+}
+.hidden-list{
+    display: none;
+    text-align: left;
+    list-style-type: none;
+}
+#showList:hover + .hidden-list{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.second{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 265px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.second :hover {
+    color: red;
+    cursor: pointer;
+}
+.second div{
+    font-family: Montserrat ,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-right: 50px;
+}
+
+#results {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.hobies{
+    background-color: #CCFFFF;
+    padding-bottom: 60px;
+}
+.hobo{
+    position: relative;
+    background-color: #999999;
+    font-family: Montserrat ,sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px solid #DDDDDD;
+    border-bottom: 3px solid #DDDDDD;
+}
+#moving{
+        margin-left: 20px;
+}
+.slideshow-container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.slideshow-container:hover .dieuhuong{
+    display:block;
+}
+.slideshow-container img{
+    width: 1000px;
+    height:400px;
+    float: left;
+}
+.mySlides {
+    width: 9999px;
+    transition: all 0.5s;
+}
+
+.dieuhuong{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    top:48%;
+    padding-left: 20px;
+    display: none;
+}
+.dieuhuong i:last-child{
+    position: relative;
+    left: 880px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subject{
+    padding: 50px 0 0;
+}
+.subject-left{
+    width: 20%;
+}
+.subject-right{
+    width: 80%;
+}
+.subject-right-top:first-child{
+    flex:2;
+    font-size:26px;
+    font-family: var(--main-text);
+    font-weight: bold;
+}
+.subject-right-top{
+    flex:1;
+    padding: 0 12px;
+}
+
+.subject-left ul li{
+    padding: 12px 0;
+}
+.subject-left ul li>a{
+    color: black;
+    font-size : 18px;
+    font-weight: bold;
+    font-family: var(--main-text);
+}
+.subject-left ul li ul li{
+    padding-left: 10%;
+}
+.subject-left-li ul{
+    display: none;
+}
+.subject-left-li:hover ul{
+    display: block;
+}
+.custom-button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+.cuoi{
+    background-color: white;
+}
+.cuoi1{
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.cuoi2{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.cuoi3{
+    padding-top: 10px;
+}

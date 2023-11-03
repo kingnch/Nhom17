@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="./admin.css">
+    <link rel="stylesheet" type="text/css" href="./fontawesome/css/all.css">
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <h1>Giao diện quản lí</h1>
+    </header>
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li><a href="#">Quản lí bài giảng</a>
+                    <ul>
+                        <li><a href="#">Thêm bài giảng</a></li>
+                        <li><a href="#">Danh sách bài giảng</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Quản lí tài liệu</a>
+                    <ul>
+                        <li><a href="#">Thêm tài liệu</a></li>
+                        <li><a href="#">Danh sách tài liệu</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "admin-content-right">
+            <div class="admin-content-right-product">
+                <h1>Thêm Bài Giảng</h1>
+                <from action="" method="POST" enctype="multipart/form-data">
+                    <label for="">Nhập tên bài giảng <span style="color: red;">*</span></label>
+                    <input type="text">
+                    <label for="">Chọn mục<span style="color: red;">*</span></label>
+                    <select name="" id="">
+                        <option value="#">--Chọn--</option>
+                    </select>
+                    <label for="">Chọn môn<span style="color: red;">*</span></label>
+                    <select name="" id="">
+                        <option value="#">--Chọn--</option>
+                    </select>
+                    <label for="">Nhập tên tác giả<span style="color: red;">*</span></label>
+                    <input type="text">
+                    <label for="">Nội dung<span style="color: red;">*</span></label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="">Ảnh mô tả<span style="color: red;">*</span></label>
+                    <input type="file">
+                    <button type="submit">Thêm</button>
+                </from>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
